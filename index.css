@@ -66,6 +66,16 @@ html, body {
     border-radius: 6px;
 }
 
+.Button .Email {
+    margin-left:20px;
+    background-color: white;
+    color: black;
+    position: relative;
+    top: -244px;
+    font-size: 21px;
+    border-radius: 6px;
+}
+
 .About {
     font-size: 15px;
     position: relative;

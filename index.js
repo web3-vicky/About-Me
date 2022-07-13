@@ -20,7 +20,9 @@ function Name() {
 function Buttons() {
     return(
         <div className="Button">
-            <button className="Email">📧 Email </button>
+
+            <a href="mailto:vicky.web3@gmail.com">
+            <button className="Email" >📧 Email</button></a>
             <a href="https://www.linkedin.com/in/vignesh-murugan-339260152">
             <button className="LinkedIn" >LinkedIn</button>
             </a>
@@ -55,12 +57,13 @@ function Skills() {
 
 function Page() {
     return(
-        <div className="Page">>
+        <div className="Page">
             <Main />
             <Name />
             <Buttons />
             <About />
             <Skills />
+
         </div>)
 }
 
