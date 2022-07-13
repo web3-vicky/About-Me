@@ -44,13 +44,20 @@
     color: black;
     border-radius: 6px;
     font-size: 20px;
+    position: relative;
+    top: -150px;
+
 }
 
-.LinkedIn {
+.Button .LinkedIn {
     margin-left:20px;
     background-color: skyblue;
     color: black;
+    position: relative;
+    top: -244px;
+    font-size: 24px;
     border-radius: 6px;
-    font-size: 20px;
+
 }
+
 

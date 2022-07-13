@@ -21,7 +21,9 @@ function Buttons() {
     return(
         <div className="Button">
             <button className="Email">📧 Email </button>
-            <button className="LinkedIn"> LinkedIn</button>
+            <a href="https://www.linkedin.com/in/vignesh-murugan-339260152">
+            <button className="LinkedIn" >LinkedIn</button>
+            </a>
         </div>
     )
 }
