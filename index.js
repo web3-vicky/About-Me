@@ -47,15 +47,8 @@ function Skills() {
                 <li>CSS</li>
                 <li>JavaScript</li>
                 <li>ReactJS</li>
+                <li>Python</li>
             </ul>
-        </div>
-    )
-}
-
-function Footer() {
-    return(
-        <div>
-
         </div>
     )
 }
@@ -68,7 +61,6 @@ function Page() {
             <Buttons />
             <About />
             <Skills />
-            <Footer />
         </div>)
 }
 
