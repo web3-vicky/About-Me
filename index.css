@@ -1,7 +1,6 @@
 .Page {
     background-color: black; 
-    margin:0;
-    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .Photo {
@@ -46,7 +45,6 @@
     font-size: 20px;
     position: relative;
     top: -150px;
-
 }
 
 .Button .LinkedIn {
@@ -57,7 +55,52 @@
     top: -244px;
     font-size: 24px;
     border-radius: 6px;
-
 }
 
+.About {
+    font-size: 15px;
+    position: relative;
+    top: -385px;
+    color: white; 
+}
 
+.About-title {
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 10px;
+    right: -500px;
+    color:rgb(237, 168, 19);
+}
+
+.About-description {
+
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 2px;
+    right: -500px;
+}
+
+.About-description1 {
+
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: -10px;
+    right: -500px;
+}
+
+.div {
+    color:white;
+    list-style:circle;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: -400px;
+    right: -500px;
+}
+
+.div-p {
+    color:rgb(237, 168, 19);
+}

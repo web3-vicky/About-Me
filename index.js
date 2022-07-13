@@ -30,16 +30,24 @@ function Buttons() {
 
 function About() {
     return(
-        <div>
-
+        <div className="About">
+            <p className="About-title">About:</p>
+            <p className="About-description">Electrical engineer and a Self-taught Coder. </p>
+            <p className="About-description1">Passionate about web development.</p>
         </div>
     )
 }
 
-function Interests() {
+function Skills() {
     return(
-        <div>
-
+        <div className="div">
+            <p className="div-p">Skills:</p>
+            <ul className="div-ul">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>ReactJS</li>
+            </ul>
         </div>
     )
 }
@@ -59,7 +67,7 @@ function Page() {
             <Name />
             <Buttons />
             <About />
-            <Interests />
+            <Skills />
             <Footer />
         </div>)
 }
