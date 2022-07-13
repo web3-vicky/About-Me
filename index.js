@@ -1,7 +1,9 @@
-function Photo() {
+function Main() {
     return(
-        <div>
-            <img src="" alt="Vignesh Murugan"></img>
+        <div className="Main">
+            <img className="Photo" src="./my-photo.jpg" alt="Vignesh Murugan"></img>
+            
+            
         </div>
     )
 }
@@ -9,15 +11,17 @@ function Photo() {
 function Name() {
     return(
         <div>
-
+            <h1 className="Name">Vignesh Murugan</h1>
+            <h5 className="Name--">Web Developer</h5>
         </div>
     )
 }
 
 function Buttons() {
     return(
-        <div>
-
+        <div className="Button">
+            <button className="Email">📧 Email </button>
+            <button className="LinkedIn"> LinkedIn</button>
         </div>
     )
 }
@@ -48,8 +52,8 @@ function Footer() {
 
 function Page() {
     return(
-        <div>
-            <Photo />
+        <div className="Page">>
+            <Main />
             <Name />
             <Buttons />
             <About />
